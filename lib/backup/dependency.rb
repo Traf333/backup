@@ -17,7 +17,7 @@ module Backup
       {
         'fog' => {
           :require => 'fog',
-          :version => '~> 1.4.0',
+          :version => '~> 1.27.0',
           :for     => 'Amazon S3, Rackspace Cloud Files (S3, CloudFiles Storages)'
         },
 
@@ -29,13 +29,13 @@ module Backup
 
         'net-sftp' => {
           :require => 'net/sftp',
-          :version => '~> 2.0.5',
+          :version => '~> 2.1.12',
           :for     => 'SFTP Protocol (SFTP Storage)'
         },
 
         'net-scp' => {
           :require => 'net/scp',
-          :version => '~> 1.0.4',
+          :version => '~> 1.2.1',
           :for     => 'SCP Protocol (SCP Storage)'
         },
 
